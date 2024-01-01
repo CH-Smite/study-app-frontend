@@ -1,8 +1,8 @@
 # Overwatch hero selector
 
-오버워치 영웅 선택 화면
+[![Netlify Status](https://api.netlify.com/api/v1/badges/930b35a3-4931-4bdb-b22a-6953041b230e/deploy-status)](https://ch-overwatch-hero-selector.netlify.app)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/930b35a3-4931-4bdb-b22a-6953041b230e/deploy-status)](https://app.netlify.com/sites/ch-overwatch-hero-selector/deploys)
+오버워치 영웅 선택 화면
 
 ## reset-css url
 
