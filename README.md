@@ -2,6 +2,8 @@
 
 스타벅스 홈페이지 클론 코딩
 
+https://ch-starbucks-clone.netlify.app
+
 ## reset-css url
 
 ```html
