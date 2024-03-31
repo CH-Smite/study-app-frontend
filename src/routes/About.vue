@@ -11,22 +11,24 @@
     <div class="name">
       {{ name }}
     </div>
-    <div>
-      <img
-          :src="gmailImage"/>{{ email }}
-    </div>
-    <div
-        class="pointer"
-        @click="toVelog">
-      <img
-          :src="velogImage"/>{{ blog }}
-    </div>
-    <br/>
-    <div
-        class="pointer"
-        @click="toGithub">
-      <img
-          :src="githubImage"/>{{ github }}
+    <div class="info">
+      <div>
+        <img
+            :src="gmailImage"/>{{ email }}
+      </div>
+      <div
+          class="pointer"
+          @click="toVelog">
+        <img
+            :src="velogImage"/>{{ blog }}
+      </div>
+      <br/>
+      <div
+          class="pointer"
+          @click="toGithub">
+        <img
+            :src="githubImage"/>{{ github }}
+      </div>
     </div>
   </div>
 </template>
@@ -104,18 +106,19 @@ export default {
     margin-bottom: 20px;
   }
 
-  div {
+  .info {
+    div:not(:first-child) {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      cursor: pointer;
+    }
+
     img {
       width: 30px;
       margin-right: 10px;
       border-radius: 50%;
     }
-  }
-  .pointer {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    cursor: pointer;
   }
 }
 </style>

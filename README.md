@@ -1,7 +1,7 @@
 # movie search app
-[![Netlify Status](https://api.netlify.com/api/v1/badges/638f7fe9-71f5-4d27-bd3e-0138b8ff4a11/deploy-status)]()
+[![Netlify Status](https://api.netlify.com/api/v1/badges/638f7fe9-71f5-4d27-bd3e-0138b8ff4a11/deploy-status)](https://app.netlify.com/sites/ch-movie-search/deploys)
 
-[Movie Search]()
+[Movie Search](https://ch-movie-search.netlify.app)
 
 ## 📖 Docs
 
