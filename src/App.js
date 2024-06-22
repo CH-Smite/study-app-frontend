@@ -58,7 +58,7 @@ const App = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(charge != "" && amount > 0) {
+        if(charge !== "" && amount > 0) {
             if(edit) {
                 const newExpenses = expenses.map(item => {
                     return item.id === id ? { ...item, charge, amount } : item
@@ -70,7 +70,7 @@ const App = () => {
             } else {
                 const newExpense = { id: crypto.randomUUID(), charge, amount }
 
-                const newExpenses = [... expenses, newExpense];
+                const newExpenses = [...expenses, newExpense];
                 setExpenses(newExpenses);
                 handleAlert({ type: "success", text: "아이템이 생성되었습니다."});
             }
