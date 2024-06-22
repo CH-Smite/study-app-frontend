@@ -1,8 +1,8 @@
 # Starbucks
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/638f7fe9-71f5-4d27-bd3e-0138b8ff4a11/deploy-status)](https://app.netlify.com/sites/ch-starbucks-clone/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/638f7fe9-71f5-4d27-bd3e-0138b8ff4a11/deploy-status)](https://kaleidoscopic-swan-09f809.netlify.app)
 
-[스타벅스 홈페이지 클론 코딩](https://ch-starbucks-clone.netlify.app)
+[스타벅스 홈페이지 클론 코딩](https://kaleidoscopic-swan-09f809.netlify.app)
 
 ## reset-css url
 
