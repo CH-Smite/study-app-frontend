@@ -1,2 +1,17 @@
-# study-app-frontend
-Front-end Study Repository
+# order app
+
+주문 사이트
+
+## Server
+
+```shell
+npm install
+npm run start
+```
+
+## Client
+
+```shell
+npm install
+npm run start
+```
