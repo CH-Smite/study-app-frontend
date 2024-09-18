@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import styled from "styled-components";
-import {useLocation, useNavigate} from "react-router-dom";
-import {getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut, User} from "firebase/auth";
+import {useLocation} from "react-router-dom";
+import {getAuth, GoogleAuthProvider, signInWithPopup, signOut, User} from "firebase/auth";
 import app from "../../firebase.js";
 import storage from "../utils/storage";
 
@@ -17,6 +17,7 @@ const NavBar = () => {
     const [userData, setUserData] = useState<User | null>(initialUserData);
 
     const {pathname} = useLocation();
+    /*
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -32,6 +33,7 @@ const NavBar = () => {
             unsubscribe();
         }
     }, [pathname]);
+    */
 
     const handleAuth = () => {
         signInWithPopup(auth, provider)

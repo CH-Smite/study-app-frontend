@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 
 const LoginPage = () => {
@@ -24,3 +25,4 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+*/
