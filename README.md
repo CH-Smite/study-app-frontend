@@ -1,2 +1,5 @@
-# study-app-frontend
-Front-end Study Repository
+# note app
+
+[![Netlify Status]()
+
+[메모 사이트]()
