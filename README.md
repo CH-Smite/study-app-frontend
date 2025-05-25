@@ -1,3 +1,3 @@
 # mini blog app
 
-Front-end Study Repository
+미니 블로그
